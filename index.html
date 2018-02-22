@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style typ="text/css">
+    </style>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/code-favicon.png" type="image/x-icon">
+    <!-- Load css bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Load css style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <nav class="navbar navbar-inverse navbar-static-top" rule="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+                        <span class="sr-only">Menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">FalconMaster</a>
+                </div>
+
+                <!-- Start nav links, forms, and others -->
+                <div class="collapse navbar-collapse" id="navegacion">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                                Categorias <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" rolo="menu">
+                                <li><a href="#">Categoria #1</a></li>
+                                <li><a href="#">Categoria #2</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Categoria #3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                    <form action="" class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- start jumbotron -->
+    <section class="jumbotron">
+        <div class="container">
+            <h1>FalconMaster Blog</h1>
+            <p>Blog de diseño web</p>
+        </div>
+    </section>
+    <!-- end jumbotron -->
+
+    <!-- start main content -->
+    <section class="main container">
+        <div class="row">
+            <section class="posts col-md-9">
+                <!-- breadcrumbs -->
+                <div class="bread-crumbs">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Categorias</a></li>
+                        <li class="active">Diseño Web</li>
+                    </ol>
+                </div>
+                <!-- end breadcrumbs -->
+
+                <!-- start articles -->
+                <article class="post clearfix">
+                    <a href="#" class="thumb pull-left">
+                        <img class="img-thumbnail" src="img/images1.jpg" alt="">
+                    </a>
+                    <h2 class="post-titulo">
+                        <a href="#">Inicia proyectos HTML5 mas rapido con Initializr</a>
+                    </h2>
+                    <p><span class="post-fecha">26 de Enero de 2015</span> por <span class="post-autor"><a href="#">Carlos Alturo</a></span></p>
+                    <p class="post-contenido text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="contenedor-botones">
+                        <a href="#" class="btn btn-primary">Leer Mas</a>
+                        <a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+                    </div>
+                </article>
+                <article class="post clearfix">
+                    <a href="#" class="thumb pull-left">
+                        <img class="img-thumbnail" src="img/images2.jpg" alt="">
+                    </a>
+                    <h2 class="post-titulo">
+                        <a href="#">Inicia proyectos HTML5 mas rapido con Initializr</a>
+                    </h2>
+                    <p><span class="post-fecha">26 de Enero de 2015</span> por <span class="post-autor"><a href="#">Carlos Alturo</a></span></p>
+                    <p class="post-contenido text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="contenedor-botones">
+                        <a href="#" class="btn btn-primary">Leer Mas</a>
+                        <a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+                    </div>
+                </article>
+                <article class="post clearfix">
+                    <a href="#" class="thumb pull-left">
+                        <img class="img-thumbnail" src="img/images3.png" alt="">
+                    </a>
+                    <h2 class="post-titulo">
+                        <a href="#">Inicia proyectos HTML5 mas rapido con Initializr</a>
+                    </h2>
+                    <p><span class="post-fecha">26 de Enero de 2015</span> por <span class="post-autor"><a href="#">Carlos Alturo</a></span></p>
+                    <p class="post-contenido text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="contenedor-botones">
+                        <a href="#" class="btn btn-primary">Leer Mas</a>
+                        <a href="#" class="btn btn-success">Comentarios <span class="badge">20</span></a>
+                    </div>
+                </article>
+                <!-- end articles -->
+
+                <!-- pagination -->
+                <nav>
+                    <div class="center-block">
+                        <ul class="pagination">
+                            <li class="disabled"><a href="#">&laquo; <span class="sr-only">Anterior</span></a></li>
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">&raquo; <span class="sr-only">Siguiente</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+            <!-- end pagination -->
+            
+            <!-- start aside -->
+            <aside class="col-md-3 hidden-xs hidden-sm">
+                <h4>Categorias</h4>
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Diseño web</a>
+                    <a href="#" class="list-group-item">Css</a>
+                    <a href="#" class="list-group-item">Cursos</a>
+                    <a href="#" class="list-group-item">Desarrollo Web</a>
+                    <a href="#" class="list-group-item">Elementos Web</a>
+                    <a href="#" class="list-group-item">Jquery</a>
+                    <a href="#" class="list-group-item">Recursos y Herramientas</a>
+                </div>
+
+                <h4>Articulos Recientes</h4>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Inicia proyectos HTML5 mas rapido con Initializr</h4>
+                    <p class="list-group-item-text">Aprende como iniciar un proyecto en HTML5 en 15 minutos con Initialzr</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Como hacer una plantilla basica con PHP (templates)</h4>
+                    <p class="list-group-item-text">Aprende como transformar tu diseño web en una plantilla dimanica con PHP</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">Como cambiar el cursor de tu sitio web con propiedad Css</h4>
+                    <p class="list-group-item-text">Aprende como cambiar el cursor de los elementos de tu sitio web con Css</p>
+                </a>
+            </aside>
+            <!-- start aside -->
+        </div><!-- end row -->
+    </section>
+    <!-- end main content -->
+    
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <p>FalconMaster</p>
+                </div>
+                <div class="col-xs-6">
+                    <ul class="list-inline text-right">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- Load script js -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
